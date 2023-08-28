@@ -6,8 +6,78 @@
   </head>
   <body>
     <header>
-        <img src="https://image.tmdb.org/t/p/w1280/gyMUJP1NQPVjaeaHodudxyTGVyc.jpg" alt="Restaurant Logo" width = 150px>
+        <img id="header-img" src="https://image.tmdb.org/t/p/w1280/gyMUJP1NQPVjaeaHodudxyTGVyc.jpg" alt="Restaurant Logo" width = 250px>
         <h1>Bob's Burgers</h1>
+        <nav>
+          <ul>
+            <li><a href="#menu">Menu</a></li>
+            <li><a href="#order-form">Order Form</a></li>
+          </ul>
+        </nav>
     </header>
+    <hr>
+    <main>
+      <section id="menu">
+        <h2><u><b>Menu</b></u></h2>
+        <article>
+          <img src="https://i.pinimg.com/736x/d6/10/e6/d610e6cd870a6eda02f432e57ce41e4d--the-sunflower-sunflower-seeds.jpg" alt="Burger with radish" width="150px">
+          <h3>Bohemian Radishy</h3>
+          <p>This burger features a succulent beef patty, perfectly seasoned and cooked to your desired level of doneness. Topping the patty is a colorful array of thinly sliced radishes, adding a delightful crunch and a hint of peppery flavor that beautifully contrasts with the meat.</p>
+          <p><i>Price:$10.00</i></p>
+        </article>
+        <hr>
+        <article>
+          <img src="https://cdn.shopify.com/s/files/1/0281/1189/6681/files/DBCB_1.png?v=1587069291" alt = "Ham burger" width="150px">
+          <h3>Gordon Hamsy</h3>
+          <p> a carnivore's dream that pays homage to the indulgent flavors of premium ham. This burger boasts a generous, succulent ham-infused patty as its centerpiece, carefully crafted from a blend of finely minced ham and seasoned ground meat, creating a symphony of smoky, salty, and savory notes in every bite.</p>
+          <p><i>Price:$13.00</i></p>
+        </article>
+        <hr>
+        <article>
+          <img src="https://preview.redd.it/k5nnt4in9pc21.jpg?width=640&crop=smart&auto=webp&s=1a7b89d090fc915ab59ab4e0ec89e11842356fb1" alt="Burger with a lot of cheese" width="150px">
+          <h3>Don't four cheddar 'bout me</h3>
+          <p>a cheese lover's fantasy that takes the classic burger experience to new heights with an abundance of rich and creamy cheddar. This burger showcases a juicy beef patty, grilled to perfection, and then lavishly topped with a generous portion of melted sharp cheddar cheese.</p>
+          <p><i>Price:$15.00</i></p>
+        </article>
+        <hr>
+        <article>
+          <img src="https://i.redd.it/urxl2xl6d9hy.jpg" alt="Burger with egg" width="150px">
+          <h3>Eggers Can't be Cheesers</h3>
+          <p>a delightful culinary creation that brings the comforting flavors of a morning breakfast to your favorite burger. This burger features a juicy beef patty, grilled to perfection and adorned with a perfectly fried sunny-side-up egg that adds a touch of morning sunshine to every bite.</p>
+          <p><i>Price:$8.00</i></p>
+        </article>
+        <hr>
+        <article>
+          <img src="https://i.redd.it/pgs5h87fb2j91.jpg" alt="Burger with curd" width="150px">
+          <h3>Texas chainsaw massa-curd</h3>
+          <p> a bold and fiery creation that ignites your taste buds with the intense heat of habanero pepper and the creamy delight of cheese curds. This burger features a thick and juicy beef patty that has been meticulously stuffed with a flavorful mixture of finely chopped habanero peppers and gooey cheese curds.</p>
+          <p><i>Price:$14.00</i></p>
+        </article>
+      </section>
+      <section id="order-form">
+        <h2>Place your Order</h2>
+        <form>
+          <p><u>Enter the amount of items</u></p>
+          <label>Bohemian Radishy: <input type= "number" min="0"></label><br><br>
+          <label>Gordon Hamsy: <input type="number" min="0"></label><br><br>
+          <label>Don't four cheddar 'bout me: <input type="number" min="0"></label><br><br>
+          <label>Eggers Can't be Cheesers: <input type="number" min="0"></label><br><br>
+          <label>Texas chainsaw massa-curd: <input type="number" min="0"></label><br>
+
+          <p><u>Extras</u></p>
+          <label>Chips: <input type="radio" name="size">Large<i>$2.00</i> <input type="radio" name="size">Small<i>:1.50 <input type="radio" name = "size">None </i></label><br><br>
+          <label>Drinks:<input type="radio" name="size_drink">Large<i>$1.50</i> <input type="radio" name="size_drink">Small<i>:1.00 <input type="radio" name = "size_drink">None </i></label><br><br>
+          <label>Drink option if applicable: <input type="radio" name="drink_option">Fanta <input type="radio" name="drink_option">Cocacola <input type="radio" name = "size">Sprite <input type="radio" name = "size">None  </i> </label></label>
+          
+          <p>Any Special requests?</p>
+          <textarea cols="42" rows="7" placeholder="List requests here"></textarea><br><br>
+          <input type="submit" value="Go to checkout">
+        </form>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      <p>Made with love by @abraimoh12842</p>
+    </footer>
   </body>
 </html>
